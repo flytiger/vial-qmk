@@ -23,7 +23,7 @@ RGB_MATRIX_EFFECT(indicator_static)
 
 // side lights index starts at 82 and ends at 97
 const uint8_t UNDERGLOW_INDEX = 82;
-const uint8_t PSRC_INDEX = 72;
+const uint8_t PSRC_INDEX = 69;
 
 static bool is_rgb_enabled(uint8_t index) {
     return (g_led_config.flags[index] & LED_FLAG_UNDERGLOW) || index == PSRC_INDEX;

@@ -8,7 +8,6 @@
 - Map PrtScr to Del and Del to Home in default layer
 - Add PrtScr, Scroll Lock, Break, NumLock to Fn layer
 - Implement Win key lock using Fn+Win like in Glorious Core firmware
-- Tap Dance on CapsLock -- Hold for CapsLock and double tap to toggle Numpad layer
 
     
 - LED/RGB Functionality
