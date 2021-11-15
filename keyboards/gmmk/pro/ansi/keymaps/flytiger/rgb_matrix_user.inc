@@ -49,7 +49,7 @@ bool effect_runner_indicator(effect_params_t* params, i_f effect_func) {
 
     uint8_t time = scale16by8(g_rgb_timer, rgb_matrix_config.speed / 16);
     for (uint8_t i = led_min; i < led_max; i++) {
-        if (!!is_rgb_enabled(i)) {
+        if (!is_rgb_enabled(i)) {
             rgb_matrix_set_color(i, 0x00, 0x00, 0x00);
         } else {
             RGB_MATRIX_TEST_LED_FLAGS();
